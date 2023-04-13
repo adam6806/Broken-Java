@@ -1,4 +1,4 @@
-# Broken-Java
+# Broken Java
 A java project that comes broken for the purpose of testing someone's ability to fix it during an interview.
 
 Complete the following tasks:
