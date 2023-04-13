@@ -122,15 +122,15 @@ Results:
 
 Alice's Transactions
 Transaction{amount=200.0, type='withdraw'}
-Transaction{amount=420.0, type='withdraw'}
+Transaction{amount=220.0, type='withdraw'}
 Transaction{amount=20.0, type='withdraw'}
 Transaction{amount=49.0, type='deposit'}
 
 Bob's Transactions
 Transaction{amount=200.0, type='deposit'}
-Transaction{amount=420.0, type='deposit'}
+Transaction{amount=220.0, type='deposit'}
 Transaction{amount=20.0, type='deposit'}
 Transaction{amount=49.0, type='withdraw'}
 
-Alice's balance: 409.0
-Bob's balance: 1091.0
+Alice's balance: 609.0
+Bob's balance: 891.0
