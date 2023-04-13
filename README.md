@@ -4,9 +4,9 @@ A java project that comes broken for the purpose of testing someone's ability to
 You have 30 minutes to implement the following in the Main Class:
 
 1. Add 3 new transactions.
-  Bank Account A -> Bank Account B $420.00
-  Bank Account A -> Bank Account B $20.00
-  Bank Account B -> Bank Account A $49.00
+  - Bank Account A -> Bank Account B $420.00
+  - Bank Account A -> Bank Account B $20.00
+  - Bank Account B -> Bank Account A $49.00
   
 2. Print a list of all transactions.
 
