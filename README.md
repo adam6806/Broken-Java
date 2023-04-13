@@ -1,7 +1,7 @@
 # Broken-Java
 A java project that comes broken for the purpose of testing someone's ability to fix it during an interview.
 
-You have 30 minutes to implement the following in the Main Class:
+You have 30 minutes to accomplish the following:
 
 1. Add 3 new transactions.
   - Bank Account A -> Bank Account B $220.00
@@ -9,7 +9,6 @@ You have 30 minutes to implement the following in the Main Class:
   - Bank Account B -> Bank Account A $49.00
   
 2. Print a list of all transactions.
-
-While accomplishing these two tasks improve the project as much as you possibly can.
+3. Improve the project as much as you possibly can whatever that means to you.
 
 Please describe what you are thinking while you are working.
