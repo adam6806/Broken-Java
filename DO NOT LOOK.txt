@@ -1,0 +1,120 @@
+Main class:
+
+Inconsistent formatting: The class uses mixed indentation (spaces and tabs) and irregular spacing between operators and operands.
+
+Poor variable and method naming: Short, non-descriptive variable names and method names that don't accurately represent their functionality.
+
+Lack of comments and documentation: Omitted comments and proper documentation, making it difficult to understand the purpose of the code.
+
+Tight coupling and lack of modularity: The class is tightly coupled with the AccountManager, BankAccount, and Transaction classes.
+
+Violation of SOLID principles: The class violates the Single Responsibility Principle by directly accessing the accounts and balance fields of other classes.
+
+nefficient algorithms: Not applicable in this particular class.
+
+Lack of error handling: Not applicable in this particular class.
+
+Hardcoding values: Hardcoded values for the initial balances and transfer amount.
+
+Inappropriate use of data structures: Not applicable in this particular class.
+
+Ignoring best practices: Directly accessing fields of other classes instead of using getter and setter methods.
+
+--------------------------------------------------
+
+User class:
+
+Inconsistent formatting: The class uses mixed indentation (spaces and tabs) and irregular spacing between operators and operands.
+
+Poor variable and method naming: Short, non-descriptive variable names and method names that don't accurately represent their functionality.
+
+Lack of comments and documentation: Omitted comments and proper documentation, making it difficult to understand the purpose of the code.
+
+Tight coupling and lack of modularity: The class is tightly coupled with the BankAccount class.
+
+Violation of SOLID principles: The class violates the Single Responsibility Principle by managing the list of bank accounts directly instead of delegating this responsibility to a separate class.
+
+Inefficient algorithms: Not applicable in this particular class.
+
+Lack of error handling: Not applicable in this particular class.
+
+Hardcoding values: Not applicable in this particular class.
+
+Inappropriate use of data structures: The class uses an ArrayList to store bank accounts when a HashSet could be more suitable for preventing duplicates.
+
+Ignoring best practices: Not applicable in this particular class.
+
+-------------------------------------------------------------------------------------
+
+Transaction class:
+
+Inconsistent formatting: Not applicable in this particular class as the class is small and simple.
+
+Poor variable and method naming: Short, non-descriptive variable names that don't accurately represent their functionality.
+
+Lack of comments and documentation: Omitted comments and proper documentation, making it difficult to understand the purpose of the code.
+
+Tight coupling and lack of modularity: Not applicable in this particular class.
+
+Violation of SOLID principles: Not applicable in this particular class.
+
+Inefficient algorithms: Not applicable in this particular class.
+
+Lack of error handling: Not applicable in this particular class.
+
+Hardcoding values: Not applicable in this particular class.
+
+Inappropriate use of data structures: Not applicable in this particular class.
+
+Ignoring best practices: Not applicable in this particular class.
+
+--------------------------------------------------------------------------------
+
+BankAccount class:
+
+Inconsistent formatting: Mixed indentation (spaces and tabs), irregular spacing between operators and operands, and long lines of code.
+
+Poor variable and method naming: Short, non-descriptive variable names and method names that don't accurately represent their functionality.
+
+Lack of comments and documentation: Omitted comments and proper documentation, making it difficult to understand the purpose of the code.
+
+Tight coupling and lack of modularity: Not applicable in this particular class.
+
+Violation of SOLID principles: The BankAccount class handles both balance management and transaction history, which could be separated.
+
+Inefficient algorithms: Not applicable in this particular class.
+
+Lack of error handling: The dposit and wthdrw methods print error messages directly to the console instead of using proper error handling mechanisms.
+
+Hardcoding values: Not applicable in this particular class.
+
+Inappropriate use of data structures: Not applicable in this particular class.
+
+Ignoring best practices: The constructor is missing a closing angle bracket in the trnscs initialization, resulting in a compilation error.
+
+-----------------------------------------------------------------------------
+
+AccountManager class:
+
+Inconsistent formatting: Mixed indentation (spaces and tabs), irregular spacing between operators and operands, and long lines of code.
+
+Poor variable and method naming: Short, non-descriptive variable names and method names that don't accurately represent their functionality.
+
+Lack of comments and documentation: Omitted comments and proper documentation, making it difficult to understand the purpose of the code.
+
+Tight coupling and lack of modularity: The trnsfr method directly accesses the BankAccount's balance field, which makes the code difficult to maintain and modify.
+
+Violation of SOLID principles: The AccountManager class handles account creation and transfers, which could be separated.
+
+Inefficient algorithms: The trnsfr method contains redundant checks, which could be optimized for better performance.
+
+Lack of error handling: The trnsfr method prints error messages directly to the console instead of using proper error handling mechanisms.
+
+Hardcoding values: Not applicable in this particular class.
+
+Inappropriate use of data structures: Using ArrayList for the list of accounts, which may not be the most efficient data structure depending on the use case.
+
+Ignoring best practices: Not applicable in this particular class.
+
+----------------------------------------------------------------------------
+
