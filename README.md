@@ -1,7 +1,7 @@
 # Broken-Java
 A java project that comes broken for the purpose of testing someone's ability to fix it during an interview.
 
-You have 30 minutes to accomplish the following:
+Complete the following tasks:
 
 1. Add 3 new transactions.
   - Bank Account A -> Bank Account B $220.00
